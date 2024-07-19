@@ -1,0 +1,1359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-left-section {
+  padding: 1rem;
+  width: 40%;
+  align-items: center;
+  display: flex;
+}
+.hero-left-section .gray_bg {
+  position: absolute;
+  top: 15.67rem;
+  z-index: -1;
+  width: 80vh;
+  height: 74.4vh;
+  background-color: gray;
+  border-radius: 30px;
+}
+.hero-right-section {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: 100vh;
+    margin: auto;
+  }
+  .hero-section {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .hero-left-section {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.hero-image {
+  width: 500px;
+  height: 600px;
+}
+
+.overlay_bg_img {
+  position: relative;
+}
+
+.bg-img {
+  position: absolute;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.5;
+  background-color: rgb(53, 52, 52);
+}
+
+.bg-Image {
+  position: relative;
+  width: 100%;
+}
+
+.overlay_bg_img {
+  position: absolute;
+  max-width: 100%;
+  top: 0;
+  opacity: 0.5;
+  height: 570px;
+  background-color: gray;
+}
+
+.background-img {
+  width: 100%;
+}
+
+.fa-brands {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer_section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-between;
+  align-items: center; */
+  padding-left: 2rem;
+  gap: 1rem;
+  /* background-color: rgb(27, 27, 27); */
+  background-image: linear-gradient(rgb(10, 3, 77) 20%, rgb(15, 93, 238));
+  height: 480px;
+  color: white;
+}
+
+.about_me_img_section {
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  background: linear-gradient(blue, red);
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 600px) {
+  .footer_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.footer_copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  background-color: rgb(10, 3, 77);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.footer_middle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.footer_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.hero-right-section {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/022/429/675/original/abstract-colorful-low-poly-geometric-shapes-background-png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero_bg_gray {
+  width: 80%;
+  height: 65%;
+  position: relative;
+  top: 15.4rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: linear-gradient(gray, rgb(255, 255, 255));
+}
+
+.achievement_heading {
+  font-size: 56px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+}
+
+/* css for achievement card section */
+
+.Achievement_card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 80px rgba(185, 185, 185, 0.5);
+  max-width: 350px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  position: relative;
+}
+.Achievement_card h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+.Achievement_card .title {
+  padding: 1rem;
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+}
+.Achievement_card .desc {
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+}
+.Achievement_card .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+  position: relative;
+  top: 6%;
+}
+.Achievement_card svg {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.img-avatar {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid white;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+  top: 15px;
+  left: 85px;
+}
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  z-index: 1;
+}
+
+.title-total {
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  background-color: rgba(255,255,255,0.9);
+}
+
+/* path {
+  fill: white;
+} */
+
+.img-portada {
+  width: 100%;
+
+}
+
+.portada {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* background-image: url("https://lavishchoudhary.com/wp-content/uploads/2024/04/dd968-16955137170922-1920-3.jpg"); */
+  background-position: bottom center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .portada{
+    width: 400%;
+  }
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #8bc34a;
+  cursor: pointer;
+  transition:.5s;
+  
+}
+
+/* css for achievement card section ends here */
+
+.what_I_do_heading {
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* css for what i do section */
+
+.blog {
+  position: relative;
+  height: 20em;
+  background-size: 22em 30em;
+  margin: auto;
+  overflow: hidden;
+}
+.blog * {
+  position: relative;
+  z-index: 2;
+}
+
+.what_I_do_icon i{
+  font-size: 2rem;
+  color: rgb(1, 45, 95);
+}
+
+.blog:hover .color-overlay {
+  background: rgba(201, 201, 201, 0.8);
+}
+.blog:hover .info {
+  bottom: -4em;
+  opacity: 1;
+  color: black;
+}
+.blog,
+.color-overlay {
+  border-radius: 0.7em;
+}
+
+.blog:hover .title-box{
+  display: none;
+}
+
+.color-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: 0.7s background;
+  background: rgba(223, 223, 223, 0.74);
+  z-index: 1;
+}
+
+.title-box {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5em;
+}
+.title-box hr {
+  margin-top: -0.4em;
+  margin-bottom: 1em;
+  width: 5em;
+  height: 0.25em;
+  box-sizing: content-box;
+  border: none;
+  background: #d0bc57;
+}
+h3 {
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+
+  text-align: center;
+}
+.intro {
+  width: 170px;
+  margin: 0 auto;
+  color: #383838;
+  font-family: "Montserrat",sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 18px;
+}
+
+.blog:hover .intro{
+  display: none;
+}
+
+.info {
+  font-family: "Montserrat",sans-serif;
+  font-size: 1.2em;
+  color: #ddd;
+  line-height: 1.1em;
+  padding: 0 2em;
+  position: relative;
+  bottom: -4em;
+  opacity: 0;
+  background: transparent;
+  transition: opacity 0.3s, bottom 0.3s;
+  text-align: center;
+}
+
+.footer {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10em;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9));
+  border-radius: 0 0 0.7em 0.7em;
+}
+
+.footer > .icon-holder {
+  position: absolute;
+  bottom: 0;
+  height: 3em;
+  width: 100%;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0 2em;
+}
+
+.icon-holder i {
+  color: #d0bc57;
+}
+
+.icon-holder span,
+h3 {
+  color: #accff0;
+}
+
+space {
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+}
+
+/* css for what i do section ends here */
+
+.testimonials_heading {
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.hero_para_section {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-right_section {
+  /* width: 80% !important; */
+  border: 1px solid rgb(224, 224, 224);
+  /* border-radius: 10%; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(45deg, #001fff, #ffc9c9);
+  clip-path: xywh(0 5px 100% 95% round 15% 0);
+}
+
+@media screen and (max-width: 425px) {
+  .achievement_heading {
+    font-size: 25px;
+  }
+  .achievement_sub_para {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  .what_I_do_heading {
+    font-size: 25px;
+  }
+  .hero_para_section {
+    font-size: 15px;
+  }
+  .testimonials_heading {
+    font-size: 25px;
+  }
+  form {
+  }
+  .background-overlay {
+    height: 1000px !important;
+  }
+}
+
+.achievement_sub_para {
+  font-family: "Montserrat", Sans-serif;
+  letter-spacing: 2px;
+  font-stretch: 150%;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #222429;
+}
+
+.achievements_card_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  column-gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.achievement_Cards {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+/* achievement card starts here */
+
+/* achievement card ends here */
+
+.achievement_Cards .achievement_img img {
+  border-radius: 10px;
+}
+
+.achievement_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.work-process-card_container {
+  width: 550px;
+  height: 175px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 5px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* white-space: nowrap; */
+}
+
+.WorkProcessCard {
+  width: 80%;
+  height: 150px;
+  background-color: white;
+  border: 1px solid rgb(158, 157, 157);
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+/* css work process */
+
+/* css work process ends her3 */
+
+.background-overlay {
+  width: 100%;
+  height: 650px;
+  background-color: #313131;
+  opacity: 0.88;
+  mix-blend-mode: multiply;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.work_process_heading_tag {
+  color: red;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+
+.work_process_desc_sec {
+  position: absolute;
+  top: 2rem;
+
+  color: white;
+}
+
+.owl-stage {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-item {
+  background-color: white;
+}
+
+.work_process_sub_tag_heading {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Motserrat", sans-serif;
+}
+
+.what-i_do_card {
+  padding: 1rem 1rem;
+  background-image: linear-gradient(rgb(223, 223, 223), white);
+  border: 1px solid red;
+  height: 200px;
+}
+
+.what_i_do_icon {
+  width: 70px;
+  height: 70px;
+  font-size: 1.5rem;
+  border: 3px solid rgb(255, 47, 47);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work_process_card_section {
+  position: absolute;
+  top: 200px;
+  color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+  margin-top: 6.5rem;
+}
+
+.work-process-card_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.work-process-card_container div {
+  border: none;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .work_process {
+    height: 500px;
+  }
+  .work_process_card_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .achievements_card_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact_section {
+    background-image: url(https://lavishchoudhary.com/wp-content/uploads/2024/04/img_work_process_Home02-L4RBWJT-1-1-4-1-1.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  .contacat_form_section {
+    width: 90%;
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+    opacity: 0.5;
+  }
+
+  .work_process_desc_sec {
+    width: 100%;
+    padding: 1rem;
+  }
+  .process_sub_heading {
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: -2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .work_process_card_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.contact_section {
+  width: 100%;
+  background-image: url(https://lavishchoudhary.com/wp-content/uploads/2024/04/img_work_process_Home02-L4RBWJT-1-1-4-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.contacat_form_section {
+  position: absolute;
+  z-index: 10;
+  top: 10rem;
+  width: 40%;
+  left: 9rem;
+  border: 1px solid red;
+  border-radius: 16px;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: black;
+}
+
+.form-control {
+  border-radius: 0 !important;
+}
+
+.bg-overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #3c3c3c;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  z-index: 1;
+}
+
+.process_number {
+  font-size: 5rem;
+  font-weight: bold;
+  /* float: right; */
+  padding-left: 16rem;
+  color: rgb(253, 90, 117);
+}
+
+@media screen and (max-width: 425px) {
+  .work_process_card_section .work_process_card .process_number {
+    font-size: 2rem;
+  }
+  .contacat_form_section {
+    width: 90%;
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    opacity: 0.5;
+  }
+  .work_process_card {
+    height: 200px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .hero_bg_gray {
+    width: 80%;
+    height: 65%;
+    position: relative;
+    top: 10rem;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(gray, rgb(255, 255, 255));
+  }
+  .newsletterEmail {
+    padding: 0.5rem 1rem !important;
+  }
+  .newsletterSubmitBtn {
+    padding: 0.5rem 1rem !important;
+  }
+  .hero_bg_gradient{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  .hero_bg_gradient img{
+    width: 100%;
+
+  }
+}
+
+.newsletterEmail {
+  padding: 1rem 2rem;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.newsletterSubmitBtn {
+  padding: 1rem 2rem;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(250, 130, 130);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(34, 31, 31);
+}
+
+.work_process_card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.process_sub_heading {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.process_sub_heading:hover {
+  color: red;
+}
+
+.contact_form_first_heading {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+.contact_form_second_heading {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_read_more {
+  text-decoration: none;
+  padding: 1rem 1.7rem;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  padding-bottom: 1rem;
+}
+
+/* animated card */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+ 
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+/* animated card ends here */
+
+/* ******************css for revealing card section on hover****************** */
+.newsCard {
+  position: relative;
+  width: 300px;
+  height: 470px;
+  margin: 1rem auto;
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.newsCaption {
+  position: absolute;
+  top: 10%;
+
+  opacity: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 15px;
+  -webkit-transform: translateY(32.2%);
+  transform: translateY(32.2%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+  transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+  transition: transform 0.4s, opacity 0.1s 0.3s, -webkit-transform 0.4s;
+}
+
+.newsCaption-title {
+  margin-top: 0px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.newsCaption-content {
+  margin: 0;
+  color: black;
+}
+
+.newsCaptionBtn {
+  border: none;
+  padding: 1rem 3rem;
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  left: 5rem;
+  top: -3rem;
+}
+
+.newsCaption-link {
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  background-color: rgb(252, 51, 51);
+  color: #ffffff;
+  position: absolute;
+  left: 75px;
+  bottom: 80px;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+  transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.newsCaption-link:hover {
+  opacity: 1;
+}
+
+.news-Slide-up:hover .newsCaption {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
+  transition: opacity 0.1s, -webkit-transform 0.4s;
+  transition: transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;
+}
+/* ******************css for revealing card section on hover ends here****************** */
+
+.about_Me_circle {
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+@media screen and (max-width: 425px) {
+  .about_Me_circle {
+    width: 30%;
+    height: 30%;
+  }
+  .work_process_paragph {
+    width: 100% !important;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.work_process_paragph {
+  width: 50%;
+}
+
+/* ********************css for restimonials********************* */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1157 {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 360px;
+
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1157 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.snip1157 img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 40px 0 0 10px;
+}
+figure.snip1157 blockquote {
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+  word-wrap: normal;
+}
+figure.snip1157 blockquote:before,
+figure.snip1157 blockquote:after {
+  font-family: "FontAwesome";
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1157 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.snip1157 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.snip1157 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fafafa;
+  margin: 0;
+  position: absolute;
+}
+figure.snip1157 .author {
+  position: absolute;
+  bottom: 45px;
+  padding: 0 10px 0 120px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+figure.snip1157 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1157 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
+}
+
+/* Demo purposes only */
+
+/* ********************css for testimonials********************* */
+.snip1157 {
+  width: 25%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.testimonials_cards_section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+  gap: 1rem;
+
+}
+
+.testimonials_cards_section::-webkit-scrollbar {
+  display: none;
+}
+/* ********************css for testimonials ends here********************* */
+
+.testimonials_cards {
+  width: 330px;
+  height: 254px;
+  background: #07182e;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.testimonials_cards .testimonial_img {
+
+  color: white;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.7rem;
+  gap: 0.5rem;
+}
+
+.testimonials_desc_sec {
+  height: 68%;
+  z-index: 1;
+  width: 300px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.testimonials_desc_sec p {
+  text-align: center;
+}
+
+.testimonials_cards .testimonial_img p {
+  font-size: 0.8rem;
+}
+
+
+/* CSS FOR unique */
+
+/* CSS FOR unique ENDS HERE */
+
+.company_success_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 500px;
+}
+
+@media screen and (max-width: 425px) {
+  .company_success_section{
+    height: 350px;
+  }
+}
+
+.counter_subtext {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 500;
+}
+.company_success_facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success_facts_para1 {
+  font-weight: 600;
+  color: blue;
+  font-family: "Montserrat", sans-serif;
+}
+
+.success_facts_para2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+@media screen  and (max-width: 425px){
+  .success_facts_para2{
+    font-size: 1rem;
+  }
+}
+
+.company_succes_counter {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0rem;
+  color: rgb(0, 0, 53);
+  top: 30%;
+  margin: 0 auto;
+}
+
+.our_partner {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  gap: 2rem;
+}
+
+.our_partner_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.1rem;
+}
+.our_partner_heading p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #091f3d;
+}
+
+.our_partner_logo_section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  width: 80%;
+
+}
+
+@media screen and (max-width: 425px) {
+  .our_partner_logo_section {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .company_succes_counter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    font-size: 1.5rem;
+  }
+  .company-success_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .company_success_facts {
+    padding-bottom: 2rem;
+  }
+}
+
+.our_partner_logo_section::-webkit-scrollbar {
+  display: none;
+}
+
+.partner_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* css for infinite animation ends here */
+
+.contact_From_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.consultation_section_heading {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+  .consultation_section_heading {
+    font-size: 1.2rem;
+  }
+  .horizontal_bar {
+    width: 25% !important;
+    height: 4px !important;
+  }
+}
+
+.horizontal_bar {
+  width: 5%;
+  height: 3px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+}
+
+/* css for blog card */
+
+/* css for blog card ends here */
+
+/* css for work process section */
+.carousel {
+  height: 200px;
+  width: 100%;
+}
+
+.work_process_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.work_process_card01 {
+  width: 20%;
+  font-size: 4rem;
+}
+
+.work_process_card02 {
+  width: 80%;
+}
+
+.work_process_card_heading:hover {
+  color: red;
+  cursor: pointer;
+}
+.Hrz_Bar {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(0, 60, 255);
+  border-radius: 5px;
+}
+/* css for work process section ends here */
+
+
+/* css for about section */
+.about-img-section{
+  position: relative;
+  clip-path: circle(40%);
+}
+
+.about_img1{
+
+}
+.about_img2{
+  position: absolute;
+  right: 3rem;
+  top: 0;
+}
+/* css for about section ends here */
