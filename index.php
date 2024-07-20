@@ -37,55 +37,54 @@
     <div class="container-fluid  hero-section pt-md-5 pt-2 " style="margin-top:5rem;">
         <div class="container pt-5 pt-md-3 pt-lg-3">
             <div class=" row flex-row-reverse">
-                <div
-                    class="hero-right_section container col-10 col-md-6 col-lg-6 position-relative d-flex justify-content-center align-items-center ">
+                <div class="hero-right_section container col-10 col-md-6 col-lg-6 position-relative d-flex justify-content-center align-items-center ">
                     <img class="z-3" width="90%" src="assat/hero.png" alt="">
                     <div style="" class="hero_bg_gradient position-absolute top-1 left-0 bottom-0 ">
-                        <img src="assat/herobg.png" alt="">
+                        <img  src="assat/herobg.png" alt="">
                     </div>
                 </div>
-                <div
-                    class="col-12 col-md-6 col-lg-6 pt-3 d-flex flex-column justify-content-center align-items-start gap-5">
-                    <div data-aos="slide-up" data-aos-duration="1000" class="">
-                        <h2 class="fs-1 fs-md-6 fs-lg-1 fs-xl-1"
-                            style="font-family:Montserrat, sans-serif;font-weight:600;">Hi, I'm Praveen
-                            Dhiman
-                        </h2>
-                    </div>
-                    <div data-aos="slide-up" data-aos-duration="1000" class="hero_para_section">
-                        <p style="">Praveen Dhiman, a prominent
-                            venture
-                            capitalist, blends
-                            astute investments with a profound
-                            commitment to social good. Beyond boardrooms, he champions causes, catalyzing transformative
-                            change.
-                            With innovation and compassion, Lavish redefines venture capitalism, infusing it with
-                            purpose,
-                            leaving an indelible mark on both business and philanthropy.</p>
-                    </div>
-                    <div data-aos="slide-up" data-aos-duration="1000" class="">
-                        <div class="fs-5 pb-3">
-                            <p>FIND ME</p>
+                    <div
+                        class="col-12 col-md-6 col-lg-6 pt-3 d-flex flex-column justify-content-center align-items-start gap-5">
+                        <div data-aos="slide-up" data-aos-duration="1000" class="">
+                            <h2 class="fs-1 fs-md-6 fs-lg-1 fs-xl-1"
+                                style="font-family:Montserrat, sans-serif;font-weight:600;">Hi, I'm Praveen
+                                Dhiman
+                            </h2>
                         </div>
-                        <div class="d-flex justify-content-center align-items-center gap-1">
-                            <a style="width:50px;height:50px;"
-                                class="p-2 text-center border text-decoration-none  border-1 fs-4 border-secondary rounded-circle  "
-                                href="" class="">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                            <a style="width:50px;height:50px;"
-                                class="p-2 text-center border text-decoration-none  border-1 fs-4 border-secondary rounded-circle  "
-                                href="" class="">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a style="width:50px;height:50px;"
-                                class="p-2 text-center border text-decoration-none  border-1 fs-4 border-secondary rounded-circle  "
-                                href="" class="">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
+                        <div data-aos="slide-up" data-aos-duration="1000" class="hero_para_section">
+                            <p style="">Praveen Dhiman, a prominent
+                                venture
+                                capitalist, blends
+                                astute investments with a profound
+                                commitment to social good. Beyond boardrooms, he champions causes, catalyzing transformative
+                                change.
+                                With innovation and compassion, Lavish redefines venture capitalism, infusing it with
+                                purpose,
+                                leaving an indelible mark on both business and philanthropy.</p>
+                        </div>
+                        <div data-aos="slide-up" data-aos-duration="1000" class="">
+                            <div class="fs-5 pb-3">
+                                <p>FIND ME</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center gap-1">
+                                <a style="width:50px;height:50px;"
+                                    class="p-2 text-center border text-decoration-none  border-1 fs-4 border-secondary rounded-circle  "
+                                    href="" class="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a style="width:50px;height:50px;"
+                                    class="p-2 text-center border text-decoration-none  border-1 fs-4 border-secondary rounded-circle  "
+                                    href="" class="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a style="width:50px;height:50px;"
+                                    class="p-2 text-center border text-decoration-none  border-1 fs-4 border-secondary rounded-circle  "
+                                    href="" class="">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
@@ -311,7 +310,7 @@
             </div>
         </div>
     </section>
-
+    
     <div class="container-fluid work_process">
 
         <div class="container d-flex flex-column justify-content-center align-items-center gap-5">

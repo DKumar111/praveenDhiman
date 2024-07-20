@@ -1,6 +1,6 @@
 <nav style="z-index:100;" class="container-fluid navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 border-primary border-bottom p-4">
     <div class="container">
-        <a class="navbar-brand" href="#">Praveen Dhiman</a>
+        <a class="navbar-brand" href="index.php">Praveen Dhiman</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                 </li>
             </ul>
             <div class="d-flex gap-2 align-items-start">
-                <a class="px-2 py-1 border border-1 border-secondary rounded-5" href="" class=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="px-2 py-1 border border-1 border-secondary rounded-5" href="" class=""><i class="fa-brands fa-facebook"></i></a>
                 <a class="px-2 py-1 border border-1 border-secondary rounded-5" href="" class=""><i class="fa-brands fa-instagram"></i></a>
                 <a class="px-2 py-1 border border-1 border-secondary rounded-5" href="" class=""><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
