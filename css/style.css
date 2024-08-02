@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: blue;
+  font-weight: 600;
+  border-bottom: 1px solid blue;
+}
+
 .nav-item a {
   font-family: "Montserrat", sans-serif;
 }
@@ -103,6 +109,20 @@
   background-image: linear-gradient(rgb(10, 3, 77) 20%, rgb(15, 93, 238));
   height: 480px;
   color: white;
+}
+
+@media screen and (max-width: 320px) {
+  .footer_form{
+    display: flex;
+    flex-direction: column !important;
+    gap: 0.5rem;
+  }
+  .newsletterSubmitBtn{
+    border-radius: 5px;
+  }
+  .newsletterEmail{
+    border-radius: 5px;
+  }
 }
 
 .about_me_img_section {
@@ -442,11 +462,7 @@ space {
   clip-path: xywh(0 5px 100% 95% round 15% 0);
 }
 
-@media screen and (min-width: 426px)  {
-  .hero-right_section{
-    
-  }
-}
+
 
 @media screen and (max-width: 425px) {
   .achievement_heading {
@@ -465,8 +481,7 @@ space {
   .testimonials_heading {
     font-size: 25px;
   }
-  form {
-  }
+
   .background-overlay {
     height: 1000px !important;
   }
@@ -1360,6 +1375,7 @@ figure.snip1157 .author h5 span {
 .about-img-section{
   position: relative;
   clip-path: circle(40%);
+  
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -1373,12 +1389,16 @@ figure.snip1157 .author h5 span {
   }
 }
 
-.about_img1{
-
-}
 .about_img2{
   position: absolute;
   right: 3rem;
   top: 0;
 }
 /* css for about section ends here */
+
+/* css for text animation */
+#text-container{
+  font-size: 2rem;
+  color: rgb(225, 249, 255);
+  text-shadow: 0 5px 5px #0014ca, -1px 0 black , 0 1px black, 1px 0 black, 0 -1px black ;
+}

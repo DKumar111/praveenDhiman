@@ -1,5 +1,6 @@
-let header = document.getElementById("navBar");
-let btns = header.getElementsByClassName("btn");
+// js code for active class on current element
+let header = document.getElementById("my-navbar-nav");
+let btns = header.getElementsByClassName("nav-link");
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
   let current = document.getElementsByClassName("active");
@@ -9,7 +10,6 @@ for (let i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
-
 
 
 //carousel code
@@ -95,3 +95,29 @@ document.addEventListener("DOMContentLoaded", function() {
 		}); 
 	}); 
 }); 
+
+
+// js code for text animation 
+
+document.addEventListener('DOMContentLoaded', () => {
+    const textContainer = document.getElementById('text-container');
+    const texts = ["Venture Capitalist", "Philanthropist","Innovator"];
+    let index = 0;
+
+    function changeText() {
+        // Fade out
+        textContainer.classList.add('fade-out');
+        
+        setTimeout(() => {
+            // Change text after fade-out
+            index = (index + 1) % texts.length;
+            textContainer.textContent = texts[index];
+
+            // Fade in
+            textContainer.classList.remove('fade-out');
+            textContainer.classList.add('fade-in');
+        }, 2000); // Duration should match the CSS transition duration
+    }
+
+    setInterval(changeText, 2000); // Change text every 9 seconds
+});

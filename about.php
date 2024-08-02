@@ -1,11 +1,11 @@
 <div id="aboutme" class="container-fluid pt-5">
     <div class="container text-center">
         <div class="row pt-4">
-            <div class="about-img-section col-12 col-md-6 col-lg-6  ">
-                <img class="about_img1 " width="100%" src="assat/aboutbg.png" alt="">
-                <img class="about_img2 " width="80%" height="100%" src="assat/hero.png" alt="">
+            <div class="about-img-section  col-12 col-md-6 col-lg-6  ">
+                <img class="about_img1  " width="100%" src="assat/aboutbg.png" alt="">
+                <img class="about_img2 img-fluid " width="80%" height="100%" src="assat/hero.png" alt="">
             </div>
-            <div class="col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center gap-5">
+            <div class="col-12 col-md-6 col-lg-6 d-flex bg-warning-subtle rounded-5 flex-column justify-content-center align-items-center gap-5">
                 <div class="aboutUs_heading text-center fs-1 fw-bold">
                     About Us
                 </div>
